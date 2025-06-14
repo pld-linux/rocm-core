@@ -11,6 +11,7 @@ Source0:	https://github.com/ROCm/rocm-core/archive/rocm-%{version}/%{name}-%{ver
 URL:		https://rocm.docs.amd.com/
 BuildRequires:	cmake >= 3.16
 BuildRequires:	libstdc++-devel
+BuildRequires:	rpmbuild(macros) >= 1.605
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
